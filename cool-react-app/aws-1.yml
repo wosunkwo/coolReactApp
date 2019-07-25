@@ -206,3 +206,4 @@ Resources:
             QueryString: true
           TargetOriginId: !Ref coolReactBucket
           ViewerProtocolPolicy: "redirect-to-https"
+          
