@@ -7,6 +7,8 @@ Had issues with code pipeline running "npm run build". Fixed that by manually mo
 ## Config Two:
 Deleted the PackageLock.json file and re-ran npm install to recreate it
 
+Replaced "- aws s3 cp --recursive --acl private ./build s3://${coolReactBucket}/" with "- aws s3 cp --recursive --acl public-read ./build s3://${coolReactBucket}/"
+
 ## Config Three
 - Having issues connecting to GH
 ![File Three](./assets/aws3-error.png)
