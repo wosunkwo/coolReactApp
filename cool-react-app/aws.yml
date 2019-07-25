@@ -2,14 +2,14 @@ AWSTemplateFormatVersion: 2010-09-09
 Parameters:
   ProjectSource:
     Type: String
-    Default: https://github.com/wosunkwo/coolReactApp
+    Default: https://github.com/mnfmnfm/cool-react
     Description: "Source control URL (e.g. Github)"
   GithubOwner:
     Type: String
-    Default: wosunkwo
+    Default: mnfmnfm
   GithubRepo:
     Type: String
-    Default: coolReactApp
+    Default: cool-react
   GithubOAuthToken:
     Type: String
     Default: MyGitHubOAuthToken
