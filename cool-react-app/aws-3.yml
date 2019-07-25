@@ -2,14 +2,14 @@ AWSTemplateFormatVersion: 2010-09-09
 Parameters:
   ProjectSource:
     Type: String
-    Default: https://github.com/mnfmnfm/cool-react
+    Default: https://github.com/wosunkwo/coolReactApp
     Description: "Source control URL (e.g. Github)"
   GithubOwner:
     Type: String
-    Default: mnfmnfm
+    Default: wosunkwo
   GithubRepo:
     Type: String
-    Default: cool-react
+    Default: coolReactApp
   GithubOAuthToken:
     Type: String
     Default: MyGitHubOAuthToken
@@ -37,10 +37,10 @@ Resources:
                 -
                   Name: cool-react-app
               Configuration:
-                Owner: GithubOwner
-                Repo: GithubRepo
+                Owner: wosunkwo
+                Repo: coolReactApp
                 Branch: master
-                OAuthToken: GithubOAuthToken
+                OAuthToken: MyGitHubOAuthToken
         -
           Name: Build
           Actions:
