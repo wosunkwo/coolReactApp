@@ -9,7 +9,7 @@ Parameters:
     Default: wosunkwo
   GithubRepo:
     Type: String
-    Default: cool-react
+    Default: coolReactApp
   GithubOAuthToken:
     Type: String
     Default: MyGitHubOAuthToken
@@ -37,10 +37,10 @@ Resources:
                 -
                   Name: cool-react-app
               Configuration:
-                Owner: GithubOwner
-                Repo: GithubRepo
+                Owner: wosunkwo
+                Repo: coolReactApp
                 Branch: master
-                OAuthToken: GithubOAuthToken
+                OAuthToken: MyGitHubOAuthToken
         -
           Name: Build
           Actions:
