@@ -1,9 +1,19 @@
 # Debug Build Configs
 
 ## Config One: 
-Removed the "-" from my s3 bucket name
-Had issues with code pipeline running "npm run build". Fixed that by manually moving my package.json and packagelock.json a folder up from where they were before
+![alt_text](https://github.com/wosunkwo/coolReactApp/blob/master/assets/template1.1.png)
 
+![alt_text](https://github.com/wosunkwo/coolReactApp/blob/master/assets/template1.2.png)
+### Fix: Removed the "-" from my s3 bucket name
+
+*******************************************************************************************************************
+
+![alt_text](https://github.com/wosunkwo/coolReactApp/blob/master/assets/template1.3.png)
+
+### Fix: By manually moving my package.json and packagelock.json a folder up from where they were before
+
+
+******************************************************************************************************************
 ## Config Two:
 Deleted the PackageLock.json file and re-ran npm install to recreate it
 
