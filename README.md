@@ -9,4 +9,5 @@ Had issues with code pipeline running "npm run build". Fixed that by manually ru
 ![File Three](./assets/aws3-error.png)
 
 - Build errors after fixing GH issues
+
 ![File Build](./assets/aws3-initial-build-error.png)
